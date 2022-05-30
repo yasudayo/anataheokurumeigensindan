@@ -1,0 +1,30 @@
+<html lang="ja">
+    <head>
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            html,body {
+                height: 100%;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: skyblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <title>あなたへ贈る名言診断</title>
+        <link rel="stylesheet" href="style.css">
+        <div id="title">あなたへ贈る名言診断</div>
+        <div id="meigen"></div>
+        <input type="text" id="text" placeholder="名前を入力してね！">
+        <input type="button" id="push" value="診断" onclick="sindan()">
+    </body>
+    <script src="main.js"></script>
+</html>
